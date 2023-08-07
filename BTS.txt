@@ -1,0 +1,42 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('RM') {
+            steps {
+                echo 'Hello army'
+            }
+        }
+        stage('JIN') {
+            steps {
+                echo 'Hi army'
+            }
+        }
+        stage('SUGA') {
+            steps {
+                echo 'hi army'
+            }
+        }
+        stage('J-HOPE') {
+            steps {
+                echo 'i am your hope'
+            }
+        }
+        stage('JIMIN') {
+            steps {
+                echo 'excuseme '
+            }
+        }
+        stage('V') {
+            steps {
+                echo 'i am good boy'
+            }
+        }
+        stage('JUNGKOOK') {
+            steps {
+                echo 'rammmmmmppp moster'
+            }
+        }
+        
+    }
+}

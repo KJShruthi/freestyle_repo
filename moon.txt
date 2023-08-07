@@ -1,0 +1,42 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('RM-BTS') {
+            steps {
+                echo 'best leader'
+            }
+        }
+        stage('JIN-BTS') {
+            steps {
+                echo ' World wide handsome'
+            }
+        }
+        stage('SUGA-BTS') {
+            steps {
+                echo 'fastest ramper'
+            }
+        }
+        stage('J-HOPE-BTS') {
+            steps {
+                echo 'best dancer'
+            }
+        }
+        stage('JIMIN-BTS') {
+            steps {
+                echo 'short boy'
+            }
+        }
+        stage('v-BTS') {
+            steps {
+                echo 'model'
+            }
+        }
+        stage('JK-BTS') {
+            steps {
+                echo 'golden'
+            }
+        }
+        
+    }
+}
